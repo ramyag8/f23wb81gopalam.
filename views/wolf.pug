@@ -9,3 +9,8 @@ block content
                 div(class = "col-sm-2 bg-success" onclick=`buy(${item})`) #{form.wolf_breed}
                 div(class = "col-sm-2 bg-success" onclick=`buy(${item})`) #{form.wolf_price}
                 hr
+    script.
+        function buy(itemNo)
+        {
+            alert(`You purchased Item ${itemNo+1}`)
+        }
