@@ -5,4 +5,4 @@
 myclass=wolf my attributes are
 wolf_color:(String) 
 wolf_breed:(String) 
-wolf_price:(Number)
+wolf_price:(Number)# s23db81gopalam
